@@ -462,7 +462,7 @@ description: object created
 
 
 
-    testCase "Tag Object Example" <| fun _ ->
+    testCase "Tag Object Example: pet yaml" <| fun _ ->
         """
 name: pet
 description: Pets operations

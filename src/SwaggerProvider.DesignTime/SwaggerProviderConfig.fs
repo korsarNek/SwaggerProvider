@@ -3,12 +3,8 @@
 open System.Reflection
 open ProviderImplementation
 open ProviderImplementation.ProvidedTypes
-open Microsoft.FSharp.Core.CompilerServices
-open Microsoft.FSharp.Quotations
 open System
-open System.Runtime.Caching
 open FSharp.Data
-open SwaggerProvider.Internal.Schema
 open SwaggerProvider.Internal.Schema.Parsers
 open SwaggerProvider.Internal.Compilers
 

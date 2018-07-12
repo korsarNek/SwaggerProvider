@@ -504,7 +504,7 @@ let jsonSpecTests =
                 }
             Expect.equal actual expected "response with no return type"
 
-    testCase "Tag Object Example" <| fun _ ->
+    testCase "Tag Object Example: Pet" <| fun _ ->
         """{
             "name": "pet",
             "description": "Pets operations"
@@ -521,7 +521,7 @@ let jsonSpecTests =
             Expect.equal actual expected "parse Tag Object"
 
 
-    testCase "Tag Object Example" <| fun _ ->
+    testCase "Tag Object Example: Pet ref" <| fun _ ->
         """{
             "$ref": "#/definitions/Pet"
         }"""
